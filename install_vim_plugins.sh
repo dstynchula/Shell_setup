@@ -33,3 +33,6 @@ EOT
 # Lets not forget youcompleteme
 cd ~/.vim/bundle
 git clone https://github.com/valloric/youcompleteme
+# install all of the autocomplete syntax
+cd ~/.vim/bundle/youcompleteme
+./install.py --all
